@@ -1,8 +1,8 @@
-MSCS 632 – Multi-Paradigm Statistics Calculator
+# MSCS 632 – Multi-Paradigm Statistics Calculator
 
 This repository contains implementations of basic statistics (mean, median, and mode) on a list of integers using three different programming paradigms: Procedural (C), Functional (OCaml), and Object-Oriented (Python).
 
-Languages and Paradigms
+## Languages and Paradigms
 
 C (Procedural): stats.c
 
@@ -13,23 +13,21 @@ Python (Object-Oriented): statistics_calculator.py
 All three implementations use the same sample data:
 
 ```text
-
 [5, 3, 9, 3, 8, 3, 1, 9]
-
 ```
 
 and compute:
 
-Mean
+-Mean
 
-Median
+-Median
 
-Mode (most frequent value)
+-Mode (most frequent value)
 
-How to Run
+## How to Run
 C (using GCC)
 
-```text
+```bash
 
 gcc stats.c -o stats.exe
 ./stats.exe
@@ -43,7 +41,7 @@ https://try.ocamlpro.com
 
 Run the code in:
 
-```text
+```bash
 
 ocaml stats.ml
 
@@ -51,12 +49,12 @@ ocaml stats.ml
 
 Python (Object-Oriented)
 
-```text
+```bash
 python statistics_calculator.py
 
 ```
 
-Expected Output (All Three Languages)
+## Expected Output (All Three Languages)
 
 ```text
 Data: 5 3 9 3 8 3 1 9
@@ -66,13 +64,13 @@ Mode(s): 3
 
 ```
 
-Course Information
+## Course Information
 
 University: University of the Cumberlands
 Course: MSCS 632 – Advanced Programming Languages
 Assignment: Assignment 7 – Multi-Paradigm Problem Solving
 
-Repository Structure
+## Repository Structure
 
 ```text
 
