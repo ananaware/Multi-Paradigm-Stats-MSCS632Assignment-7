@@ -12,7 +12,7 @@ Python (Object-Oriented): statistics_calculator.py
 
 All three implementations use the same sample data:
 
-```text
+```bash
 [5, 3, 9, 3, 8, 3, 1, 9]
 ```
 
@@ -51,17 +51,15 @@ Python (Object-Oriented)
 
 ```bash
 python statistics_calculator.py
-
 ```
 
 ## Expected Output (All Three Languages)
 
-```text
+```bash
 Data: 5 3 9 3 8 3 1 9
 Mean: 5.125
 Median: 4.000
 Mode(s): 3
-
 ```
 
 ## Course Information
@@ -72,8 +70,7 @@ Assignment: Assignment 7 – Multi-Paradigm Problem Solving
 
 ## Repository Structure
 
-```text
-
+```bash
 Multi-Paradigm-Stats-MSCS632Assignment-7/
 │
 ├── stats.c                     # Procedural C implementation
