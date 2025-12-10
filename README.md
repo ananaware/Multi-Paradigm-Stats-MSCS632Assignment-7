@@ -12,3 +12,11 @@ All three implementations use the same sample data:
 
 ```text
 [5, 3, 9, 3, 8, 3, 1, 9]
+```
+and compute:
+
+Mean
+
+Median
+
+Mode (most frequent value)
